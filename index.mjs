@@ -15,5 +15,5 @@ async function countFilesInDirectory(dirPath) {
 const pathToDirectory = './node_modules/';
 
 countFilesInDirectory(pathToDirectory).then(count => {
-  console.log(count);
+  console.log(count); //65
 });
